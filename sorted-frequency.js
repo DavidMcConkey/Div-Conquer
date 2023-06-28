@@ -3,6 +3,7 @@ function sortedFrequency(arr, val) {
   for (let i = 0; i < arr.length; i++) {
     if (arr[i] === val) count++;
   }
+  if (count === 0) return -1;
   return count;
 }
 
